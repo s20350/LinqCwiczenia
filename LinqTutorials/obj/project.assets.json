@@ -1,0 +1,225 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "HostStat.NET/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/HostStat.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/HostStat.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libhoststat.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux/native/libhoststat.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/libhoststat.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
+        }
+      },
+      "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/fedora.23-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {
+            "assetType": "native",
+            "rid": "fedora.23-x64"
+          }
+        }
+      },
+      "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/fedora.24-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {
+            "assetType": "native",
+            "rid": "fedora.24-x64"
+          }
+        }
+      },
+      "VS.Redist.Common.NetCore.HostFXR.x64.2.1/2.1.30-servicing-30411-01": {
+        "type": "package"
+      },
+      "VS.Redist.Common.NetCore.HostFXR.x86.2.1/2.1.30-servicing-30411-01": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "HostStat.NET/1.0.2": {
+      "sha512": "St5ImQ7WTyPu4FSz4SNm00y7CfQ0oSA6nvLarXG0RXu7LOToG2vH4elEIZpJagIIllunKehPp78GJwRE4ct5aQ==",
+      "type": "package",
+      "path": "hoststat.net/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hoststat.net.1.0.2.nupkg.sha512",
+        "hoststat.net.nuspec",
+        "icon.png",
+        "lib/netcoreapp3.1/HostStat.dll",
+        "runtimes/linux-arm64/native/libhoststat.so",
+        "runtimes/linux/native/libhoststat.so",
+        "runtimes/osx/native/libhoststat.dylib"
+      ]
+    },
+    "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {
+      "sha512": "mh+syrTYDEjxkF42OsEye6QBXmXIlJoBVccUH7cEcH/930gdN3cxoErvII1qOl5wNT5b35zjn1b+NM6snkbPzQ==",
+      "type": "package",
+      "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.3.nupkg.sha512",
+        "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.nuspec",
+        "runtimes/fedora.23-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {
+      "sha512": "P0ZdJMkz6+jYSkKNAIhJrjnWoOqaLzaQAVPGGZtl+hv5Y7vGERijFN0naQvt8oUYo0GNW17FE5LrF0GYIzRsQw==",
+      "type": "package",
+      "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.3.nupkg.sha512",
+        "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.nuspec",
+        "runtimes/fedora.24-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "VS.Redist.Common.NetCore.HostFXR.x64.2.1/2.1.30-servicing-30411-01": {
+      "sha512": "nJInzbDwXKnlQtucousGz9iPPWAD+P5mVAwKt/puXyWFeefaDBrKtBYuIhvQU2ZkSlbHoYJiYLRJsB/YzlTK7w==",
+      "type": "package",
+      "path": "vs.redist.common.netcore.hostfxr.x64.2.1/2.1.30-servicing-30411-01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-hostfxr-2.1.30-win-x64.msi",
+        "vs.redist.common.netcore.hostfxr.x64.2.1.2.1.30-servicing-30411-01.nupkg.sha512",
+        "vs.redist.common.netcore.hostfxr.x64.2.1.nuspec"
+      ]
+    },
+    "VS.Redist.Common.NetCore.HostFXR.x86.2.1/2.1.30-servicing-30411-01": {
+      "sha512": "xFS33plwGMTORAvVwr9Ck+f6lviFt7/Gni5Vt4wRgxoHa7i3kH/NONPUzjOg819q2FelvlS8WmvQVYKyfluhdA==",
+      "type": "package",
+      "path": "vs.redist.common.netcore.hostfxr.x86.2.1/2.1.30-servicing-30411-01",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-hostfxr-2.1.30-win-x86.msi",
+        "vs.redist.common.netcore.hostfxr.x86.2.1.2.1.30-servicing-30411-01.nupkg.sha512",
+        "vs.redist.common.netcore.hostfxr.x86.2.1.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "HostStat.NET >= 1.0.2",
+      "VS.Redist.Common.NetCore.HostFXR.x64.2.1 >= 2.1.30-servicing-30411-01",
+      "VS.Redist.Common.NetCore.HostFXR.x86.2.1 >= 2.1.30-servicing-30411-01",
+      "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl >= 4.3.3",
+      "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl >= 4.3.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/michalswiostek/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj",
+      "projectName": "LinqTutorials",
+      "projectPath": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj",
+      "packagesPath": "/Users/michalswiostek/.nuget/packages/",
+      "outputPath": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/michalswiostek/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "HostStat.NET": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "VS.Redist.Common.NetCore.HostFXR.x64.2.1": {
+            "target": "Package",
+            "version": "[2.1.30-servicing-30411-01, )"
+          },
+          "VS.Redist.Common.NetCore.HostFXR.x86.2.1": {
+            "target": "Package",
+            "version": "[2.1.30-servicing-30411-01, )"
+          },
+          "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+            "target": "Package",
+            "version": "[4.3.3, )"
+          },
+          "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+            "target": "Package",
+            "version": "[4.3.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

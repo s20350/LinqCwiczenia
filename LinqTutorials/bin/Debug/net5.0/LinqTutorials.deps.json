@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LinqTutorials/1.0.0": {
+        "dependencies": {
+          "HostStat.NET": "1.0.2",
+          "VS.Redist.Common.NetCore.HostFXR.x64.2.1": "2.1.30-servicing-30411-01",
+          "VS.Redist.Common.NetCore.HostFXR.x86.2.1": "2.1.30-servicing-30411-01",
+          "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.3",
+          "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.3"
+        },
+        "runtime": {
+          "LinqTutorials.dll": {}
+        }
+      },
+      "HostStat.NET/1.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/HostStat.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libhoststat.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libhoststat.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libhoststat.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {},
+      "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {},
+      "VS.Redist.Common.NetCore.HostFXR.x64.2.1/2.1.30-servicing-30411-01": {},
+      "VS.Redist.Common.NetCore.HostFXR.x86.2.1/2.1.30-servicing-30411-01": {}
+    }
+  },
+  "libraries": {
+    "LinqTutorials/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HostStat.NET/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-St5ImQ7WTyPu4FSz4SNm00y7CfQ0oSA6nvLarXG0RXu7LOToG2vH4elEIZpJagIIllunKehPp78GJwRE4ct5aQ==",
+      "path": "hoststat.net/1.0.2",
+      "hashPath": "hoststat.net.1.0.2.nupkg.sha512"
+    },
+    "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mh+syrTYDEjxkF42OsEye6QBXmXIlJoBVccUH7cEcH/930gdN3cxoErvII1qOl5wNT5b35zjn1b+NM6snkbPzQ==",
+      "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.3",
+      "hashPath": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.3.nupkg.sha512"
+    },
+    "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P0ZdJMkz6+jYSkKNAIhJrjnWoOqaLzaQAVPGGZtl+hv5Y7vGERijFN0naQvt8oUYo0GNW17FE5LrF0GYIzRsQw==",
+      "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.3",
+      "hashPath": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.3.nupkg.sha512"
+    },
+    "VS.Redist.Common.NetCore.HostFXR.x64.2.1/2.1.30-servicing-30411-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nJInzbDwXKnlQtucousGz9iPPWAD+P5mVAwKt/puXyWFeefaDBrKtBYuIhvQU2ZkSlbHoYJiYLRJsB/YzlTK7w==",
+      "path": "vs.redist.common.netcore.hostfxr.x64.2.1/2.1.30-servicing-30411-01",
+      "hashPath": "vs.redist.common.netcore.hostfxr.x64.2.1.2.1.30-servicing-30411-01.nupkg.sha512"
+    },
+    "VS.Redist.Common.NetCore.HostFXR.x86.2.1/2.1.30-servicing-30411-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFS33plwGMTORAvVwr9Ck+f6lviFt7/Gni5Vt4wRgxoHa7i3kH/NONPUzjOg819q2FelvlS8WmvQVYKyfluhdA==",
+      "path": "vs.redist.common.netcore.hostfxr.x86.2.1/2.1.30-servicing-30411-01",
+      "hashPath": "vs.redist.common.netcore.hostfxr.x86.2.1.2.1.30-servicing-30411-01.nupkg.sha512"
+    }
+  }
+}

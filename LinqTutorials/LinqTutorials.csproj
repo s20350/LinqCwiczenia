@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HostStat.NET" Version="1.0.2" />
+    <PackageReference Include="runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl" Version="4.3.3" />
+    <PackageReference Include="runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl" Version="4.3.3" />
+    <PackageReference Include="VS.Redist.Common.NetCore.HostFXR.x64.2.1" Version="2.1.30-servicing-30411-01" />
+    <PackageReference Include="VS.Redist.Common.NetCore.HostFXR.x86.2.1" Version="2.1.30-servicing-30411-01" />
+  </ItemGroup>
+
+</Project>

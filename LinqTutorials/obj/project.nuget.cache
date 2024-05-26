@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "l4fiq5v/hAYwWDYfxmOwJTrSu9pvq9LLTc1ono6PQXWJhY6WaEqAA1TZBLBp4iKiBYNwmFhZqEMFsDpnRZFTGg==",
+  "success": true,
+  "projectFilePath": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj",
+  "expectedPackageFiles": [
+    "/Users/michalswiostek/.nuget/packages/hoststat.net/1.0.2/hoststat.net.1.0.2.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.3/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.3.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.3/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.3.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/vs.redist.common.netcore.hostfxr.x64.2.1/2.1.30-servicing-30411-01/vs.redist.common.netcore.hostfxr.x64.2.1.2.1.30-servicing-30411-01.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/vs.redist.common.netcore.hostfxr.x86.2.1/2.1.30-servicing-30411-01/vs.redist.common.netcore.hostfxr.x86.2.1.2.1.30-servicing-30411-01.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/michalswiostek/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

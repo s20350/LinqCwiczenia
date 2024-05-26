@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj": {}
+  },
+  "projects": {
+    "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj",
+        "projectName": "LinqTutorials",
+        "projectPath": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj",
+        "packagesPath": "/Users/michalswiostek/.nuget/packages/",
+        "outputPath": "/Users/michalswiostek/Desktop/LinqCwiczenia/LinqTutorials/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/michalswiostek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "HostStat.NET": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "VS.Redist.Common.NetCore.HostFXR.x64.2.1": {
+              "target": "Package",
+              "version": "[2.1.30-servicing-30411-01, )"
+            },
+            "VS.Redist.Common.NetCore.HostFXR.x86.2.1": {
+              "target": "Package",
+              "version": "[2.1.30-servicing-30411-01, )"
+            },
+            "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
